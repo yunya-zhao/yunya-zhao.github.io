@@ -54,16 +54,17 @@ body {
     background: #f7f6f2;
 }
 
-.paper-title{
+.paper{
     font-size: 1.0em;
     font-weight: 600;
 }
 .paper-authors{
     font-size: 1.0em;
-    
+    font-weight:400;
 }
 .paper-link{
     font-size: 1.0em;
+    font-weight:400;
 }
 .paper-link a{
     color:#7BA23F;
