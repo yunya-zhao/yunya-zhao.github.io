@@ -57,6 +57,7 @@ body {
 .paper{
     font-size: 1.0em;
     font-weight: 600;
+    margin-bottom:10px;
 }
 .paper-authors{
     font-size: 1.0em;
@@ -104,7 +105,7 @@ ul {
 }
 
 ul li {
-    margin-bottom: 10px;
+    padding-left:20px;
 }
 
 
