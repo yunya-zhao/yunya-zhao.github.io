@@ -98,7 +98,7 @@ h3{
 }
 
 ul {
-    list-style-type: disc inside;
+    list-style: disc inside;
     padding-left: 0;
 }
 
