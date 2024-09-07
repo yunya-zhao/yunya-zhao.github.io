@@ -99,7 +99,7 @@ h3{
 }
 
 ul {
-    list-style: disc inside;
+    list-style: disc outside;
     padding-left: 0;
 }
 
@@ -107,9 +107,6 @@ ul li {
     margin-bottom: 10px;
 }
 
-ul li p{
-    margin-left:15px;
-}
 
 
 ul li a:hover {
