@@ -1,0 +1,114 @@
+/* Basic reset and layout */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, “Helvetica Neue”, Helvetica, sans-serif;
+}
+
+body {
+    color: #575757;
+    line-height: 1.6;
+    background: #f7f6f2;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    gap: 20px;
+}
+
+.sidebar {
+    background: #f7f6f2;
+    padding: 20px;
+    text-align: center;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.sidebar h1 {
+    margin-bottom: 10px;
+    font-size: 1.8em;
+}
+
+.sidebar p {
+    color: #828181;
+}
+
+.content {
+    padding: 20px;
+    background: #f7f6f2;
+    border-radius: 8px;
+}
+
+.paper-title{
+    font-size: 1.0em;
+    font-weight: 600;
+}
+.paper-authors{
+    font-size: 1.0em;
+    
+}
+.paper-link{
+    font-size: 1.0em;
+}
+.paper-link a{
+    color:#7BA23F;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+a {
+    color: #F17C67;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+section {
+    margin-bottom: 30px;
+}
+h2{
+    font-size: 1.2em;
+    margin-bottom: 6px;
+}
+h3{
+    font-size: 1.0;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
