@@ -107,6 +107,10 @@ ul li {
     margin-bottom: 10px;
 }
 
+ul li p{
+    margin-left:5px;
+}
+
 
 ul li a:hover {
     text-decoration: underline;
