@@ -7,12 +7,12 @@
 }
 
 body {
-    color: #575757;
-    line-height: 1.6;
-    background: #f7f6f2;
+    color: #101010;
+    line-height: 1.5;
+    background: #fbfcff;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: flex-start; 
     height: 100vh;
     margin: 0;
 }
@@ -28,7 +28,7 @@ body {
 }
 
 .sidebar {
-    background: #f7f6f2;
+    background: #fbfcff;
     padding: 20px;
     text-align: center;
 }
@@ -46,12 +46,12 @@ body {
 }
 
 .sidebar p {
-    color: #828181;
+    color: #525252;
 }
 
 .content {
     padding: 20px;
-    background: #f7f6f2;
+    background: #fbfcff;
 }
 
 .paper{
@@ -70,7 +70,7 @@ body {
 .paper-link a{
     color:#7BA23F;
 }
-
+ 
 nav {
     display: flex;
     justify-content: center;
@@ -79,7 +79,7 @@ nav {
 
 
 a {
-    color: #da566a;
+    color: #712ec3; 
     text-decoration: none;
 }
 
@@ -113,4 +113,3 @@ ul li {
 ul li a:hover {
     text-decoration: underline;
 }
-
